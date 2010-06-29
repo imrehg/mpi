@@ -1,0 +1,10 @@
+Basic master/slaves system based on mpi4py online tutorial:
+http://mpi4py.scipy.org/docs/usrman/tutorial.html
+
+1) to run, just issue "make"
+2) mpiexec invoked with single processor to run the master program
+3) master spawn a number of processors and divides the calculation
+   between them
+4) clients reduce their calcs, then master its own
+5) ...
+6) PROFIT!
